@@ -1,0 +1,133 @@
+ .align h1 {
+   text-align: center;
+   font-family: 'Times New Roman', Times, serif;
+ }
+
+ .abt p {
+   text-align: justify;
+   font-family: 'Roboto', sans-serif;
+   font-size: large;
+ }
+
+ .Mar marquee {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: x-large;
+   color:whitesmoke;
+ }
+
+ body {
+   color:white;
+   background: url(../images/bg6.jpeg);
+ }
+
+ .abt span {
+   background-color: yellow;
+   font-size: larger;
+   color: maroon;
+   font-size: x-large;
+ }
+
+ .headd h1 {
+   font-size: 45px;
+   text-align: center;
+   color: #0000FF;
+ }
+
+ .headd h2 {
+   font-size: 40px;
+   text-align: center;
+   color: #ffffff;
+ }
+
+
+ .square img {
+   float: left;
+   margin: 5px;
+   width: 700px;
+   height: 230px;
+ }
+
+ .square p {
+   text-align: center;
+   font-size: 30px;
+   color: white;
+ }
+
+ .square p span {
+   color:  #0000FF;
+   font-weight: 90px;
+   font-size: px;
+   font-family: 'Montserrat', sans-serif;
+ }
+
+ * {
+   box-sizing: border-box;
+ }
+
+ table {
+   border-spacing: 25px;
+   width: 100%;
+   border-color: transparent;
+ }
+
+ th {
+   color:yellow;
+ }
+
+ th, td {
+   width: 150px;
+   text-align: center;
+   padding: 5px;
+   color: white;
+   font-size: large;
+ }
+
+ .table {
+   font-size: large;
+ }
+
+ .social {
+   margin-top: 10px;
+ }
+
+ .social a {
+   display: inline-block;
+   text-align:justify;
+   padding: 15px;
+   color: white;
+   font-size: 23px;
+ }
+
+ .social a:hover {
+   color: #000;
+ }
+
+ .facebook {
+   background: #3b5998;
+   color: white;
+ }
+
+ .twitter {
+   color: white;
+   background: #00acee;
+ }
+
+ .linkedin {
+   background: #0e76a8;
+   color: white;
+ }
+
+ .instagram {
+   background: #3f729b;
+   color: white;
+ }
+
+ #contact {
+   width: 900px;
+ }
+
+ @media only screen and (max-width: 600px) {
+   #contact {
+     width: 400px;
+   }
+ }
